@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+.containerr{
+  display: flex;
+  margin-left: 30px;
+}
+.panier {
+  background-color: #fff;
+ 
+  padding: 20px;
+  margin-left: 120px;
+  margin-top: 40px;
+  padding-right: 300px;
+  
+  
+ 
+  
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+li{
+  list-style: none;
+}
+.totals{
+  background-color: #fff;
+  
+  padding: 20px;
+  position:fixed;
+  margin-left: 1000px;
+  margin-top: 40px;
+ 
+  
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+#liste-articles {
+  margin-right: -80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image img{
+ max-width: 300px;
+ max-height:300px;
+ padding-right: 280px;
+}
+.product{
+    display: flex;
+}
+
+.product-details{
+  margin-left: -200px;
+  position: relative;
+ 
+  
+}
+.product{
+  margin-bottom: 30px;
+}
+.details-row span{
+  font-weight: bold; 
+  position: absolute;
+ 
+  padding: 120px 350px;
+   
+}
+
+
+.js-total_cost {
+  font-weight: bold;
+  padding-left: 180px;
+
+  
+  
+}
+
+.btn {
+  background: #e2294b;
+  color: #fff;
+  border-color: #e2294b;
+  font-size: .875rem;
+  border: none;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+ 
+
+}
+
+.delete-button{
+  margin-top: 30px;
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  font-size: 0px; /* Set the font size to make the button smaller */
+  padding: 5px;
+  
+}
